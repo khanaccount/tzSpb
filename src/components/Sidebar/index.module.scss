@@ -1,0 +1,29 @@
+@use "/src/styles/variables" as *;
+
+.sidebar {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  background-color: $primary-bg-color;
+  border-radius: 8px;
+  height: 100%;
+  transition: width 0.3s ease;
+
+  &__title {
+    font-size: $font-size-lg;
+    font-weight: $font-weight-bold;
+    color: $primary-color;
+    white-space: nowrap;
+  }
+
+  &__item {
+    border-radius: 8px;
+    transition: background 0.2s ease-in-out;
+    color: $text-primary;
+    cursor: pointer;
+    &:hover {
+      background-color: rgba($primary-color, 0.1);
+    }
+  }
+}

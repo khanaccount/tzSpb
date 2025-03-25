@@ -1,7 +1,6 @@
 Установить зависимости:
-
-npm install
-npm run server
-npx tsx .\generateUsers.ts
-npm run dev
+1.npm install
+2.npm run server
+3.npx tsx .\generateUsers.ts
+4.npm run dev
 
